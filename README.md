@@ -21,6 +21,8 @@
 - [Autolayout: Custom Popup Layout](https://github.com/Be-beee/TIL-2/tree/main/iOS/Popup_Layout)
 - [Autolayout: Chat App](https://github.com/Be-beee/TIL-2/tree/main/iOS/Chat_App)
 - [SwiftUI Tutorial: Text, Image, Buttons, Stack View](https://github.com/Be-beee/TIL-2/tree/main/SwiftUI/SwiftUI_Test)
+- [SwiftUI: List](https://github.com/Be-beee/TIL-2/tree/main/SwiftUI/List)
+- [SwiftUI: Form, ScrollView](https://github.com/Be-beee/TIL-2/tree/main/SwiftUI/ScrollView)
 
 
 ## Algorithm & Data Structure 👀
