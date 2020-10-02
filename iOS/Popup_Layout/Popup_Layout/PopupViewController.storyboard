@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Popup View Controller-->
+        <scene sceneID="eOo-J2-WxO">
+            <objects>
+                <viewController storyboardIdentifier="popupVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="FC6-BE-59J" customClass="PopupViewController" customModule="Popup_Layout" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gIz-UB-irr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iif-x6-xmK">
+                                <rect key="frame" x="87" y="235.5" width="240" height="335"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg5.png" translatesAutoresizingMaskIntoConstraints="NO" id="Sam-ou-idn">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="130"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="130" id="5NL-Xz-aUX"/>
+                                            <constraint firstAttribute="width" constant="240" id="KLJ-a0-svQ"/>
+                                        </constraints>
+                                    </imageView>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4UQ-qw-XRI">
+                                        <rect key="frame" x="20" y="231" width="200" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3In-mR-sWq">
+                                        <rect key="frame" x="20" y="285" width="98.5" height="30"/>
+                                        <state key="normal" title="취소"/>
+                                        <connections>
+                                            <action selector="closePopup:" destination="FC6-BE-59J" eventType="touchUpInside" id="hVU-U0-5dl"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1H8-Eb-PIw">
+                                        <rect key="frame" x="121.5" y="285" width="98.5" height="30"/>
+                                        <state key="normal" title="확인"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="long long long longlong longlong longlong longlong long text" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zVy-jd-kti">
+                                        <rect key="frame" x="20" y="150" width="200" height="61"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="balloon_3.png" translatesAutoresizingMaskIntoConstraints="NO" id="vFt-rI-hRq">
+                                        <rect key="frame" x="85" y="-50" width="70" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="0CV-0j-UyU"/>
+                                            <constraint firstAttribute="width" constant="70" id="DWd-Dv-OWq"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="1H8-Eb-PIw" firstAttribute="top" secondItem="4UQ-qw-XRI" secondAttribute="bottom" constant="20" id="11D-YY-bN5"/>
+                                    <constraint firstAttribute="trailing" secondItem="1H8-Eb-PIw" secondAttribute="trailing" constant="20" id="3qe-ah-Mlw"/>
+                                    <constraint firstAttribute="trailing" secondItem="4UQ-qw-XRI" secondAttribute="trailing" constant="20" id="4fY-vU-HXX"/>
+                                    <constraint firstItem="1H8-Eb-PIw" firstAttribute="height" secondItem="3In-mR-sWq" secondAttribute="height" id="5H6-tS-E7p"/>
+                                    <constraint firstAttribute="trailing" secondItem="Sam-ou-idn" secondAttribute="trailing" id="5zb-SL-sKb"/>
+                                    <constraint firstItem="3In-mR-sWq" firstAttribute="top" secondItem="4UQ-qw-XRI" secondAttribute="bottom" constant="20" id="AGS-y3-MM7"/>
+                                    <constraint firstItem="vFt-rI-hRq" firstAttribute="centerX" secondItem="iif-x6-xmK" secondAttribute="centerX" id="BeB-U5-onl"/>
+                                    <constraint firstItem="4UQ-qw-XRI" firstAttribute="leading" secondItem="iif-x6-xmK" secondAttribute="leading" constant="20" id="Hwt-Hv-K8K"/>
+                                    <constraint firstItem="3In-mR-sWq" firstAttribute="leading" secondItem="iif-x6-xmK" secondAttribute="leading" constant="20" id="Jh0-WO-w2c"/>
+                                    <constraint firstAttribute="bottom" secondItem="3In-mR-sWq" secondAttribute="bottom" constant="20" id="Lnd-jg-WVm"/>
+                                    <constraint firstItem="vFt-rI-hRq" firstAttribute="centerY" secondItem="iif-x6-xmK" secondAttribute="top" id="M3e-lD-q5e"/>
+                                    <constraint firstItem="zVy-jd-kti" firstAttribute="top" secondItem="Sam-ou-idn" secondAttribute="bottom" constant="20" id="OCF-Oo-n36"/>
+                                    <constraint firstItem="1H8-Eb-PIw" firstAttribute="width" secondItem="3In-mR-sWq" secondAttribute="width" id="PIv-Bf-Y2y"/>
+                                    <constraint firstItem="zVy-jd-kti" firstAttribute="leading" secondItem="iif-x6-xmK" secondAttribute="leading" constant="20" id="QbP-5J-frX"/>
+                                    <constraint firstItem="4UQ-qw-XRI" firstAttribute="top" secondItem="zVy-jd-kti" secondAttribute="bottom" constant="20" id="TmG-ZX-ey7"/>
+                                    <constraint firstItem="Sam-ou-idn" firstAttribute="top" secondItem="iif-x6-xmK" secondAttribute="top" id="ZBq-Dk-jV4"/>
+                                    <constraint firstItem="1H8-Eb-PIw" firstAttribute="leading" secondItem="3In-mR-sWq" secondAttribute="trailing" constant="3" id="aLW-yD-O8r"/>
+                                    <constraint firstAttribute="trailing" secondItem="zVy-jd-kti" secondAttribute="trailing" constant="20" id="fCv-50-zWD"/>
+                                    <constraint firstItem="Sam-ou-idn" firstAttribute="leading" secondItem="iif-x6-xmK" secondAttribute="leading" id="jSb-qb-dG4"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="V9E-f3-NSQ"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.37953895246478886" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="iif-x6-xmK" firstAttribute="centerY" secondItem="gIz-UB-irr" secondAttribute="centerY" multiplier="90%" id="DfN-Xp-1T2"/>
+                            <constraint firstItem="iif-x6-xmK" firstAttribute="centerX" secondItem="gIz-UB-irr" secondAttribute="centerX" id="w8A-eJ-heL"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FcZ-5h-AX5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="55.580357142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="balloon_3.png" width="282.72000122070312" height="418.55999755859375"/>
+        <image name="bg5.png" width="585" height="366"/>
+    </resources>
+</document>

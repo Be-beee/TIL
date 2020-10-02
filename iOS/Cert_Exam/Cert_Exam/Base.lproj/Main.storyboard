@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Cert_Exam" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cert_BG.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="om5-Wi-EDk">
+                                <rect key="frame" x="20" y="181.5" width="374" height="533"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="om5-Wi-EDk" secondAttribute="height" multiplier="1009:1438" id="SHa-HG-8Bd"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="공인 인증서" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="3Py-sw-ynk">
+                                <rect key="frame" x="141.5" y="181.5" width="131" height="140"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="발급자 : 금융결제원" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="cRd-OA-wEd">
+                                <rect key="frame" x="132" y="181.5" width="150" height="461.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="홍길동" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Tf5-qg-PLy">
+                                <rect key="frame" x="141.5" y="181.5" width="131" height="333"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="종  류 : 은행" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pgG-yv-L4l">
+                                <rect key="frame" x="132" y="181.5" width="150" height="533"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="만료일 : 2020. 11. 1." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="c3y-jl-jTg">
+                                <rect key="frame" x="132" y="181.5" width="150" height="604.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cRd-OA-wEd" firstAttribute="width" secondItem="om5-Wi-EDk" secondAttribute="width" multiplier="0.4" id="1qZ-s1-rXo"/>
+                            <constraint firstItem="pgG-yv-L4l" firstAttribute="leading" secondItem="cRd-OA-wEd" secondAttribute="leading" id="63b-eD-kpb"/>
+                            <constraint firstItem="Tf5-qg-PLy" firstAttribute="centerX" secondItem="om5-Wi-EDk" secondAttribute="centerX" id="9Vc-zd-nbr"/>
+                            <constraint firstItem="c3y-jl-jTg" firstAttribute="top" secondItem="om5-Wi-EDk" secondAttribute="top" id="BBf-NZ-Jpb"/>
+                            <constraint firstItem="cRd-OA-wEd" firstAttribute="top" secondItem="om5-Wi-EDk" secondAttribute="top" id="GMz-Pz-xvz"/>
+                            <constraint firstItem="pgG-yv-L4l" firstAttribute="top" secondItem="om5-Wi-EDk" secondAttribute="top" id="Gna-tY-ZUn"/>
+                            <constraint firstItem="pgG-yv-L4l" firstAttribute="width" secondItem="om5-Wi-EDk" secondAttribute="width" multiplier="0.4" id="LWn-bb-9mI"/>
+                            <constraint firstItem="3Py-sw-ynk" firstAttribute="bottom" secondItem="om5-Wi-EDk" secondAttribute="bottom" multiplier="0.45" id="Lf4-bA-B99"/>
+                            <constraint firstItem="om5-Wi-EDk" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Lzu-9R-1fM"/>
+                            <constraint firstItem="Tf5-qg-PLy" firstAttribute="width" secondItem="om5-Wi-EDk" secondAttribute="width" multiplier="0.35" id="NgZ-bA-9oj"/>
+                            <constraint firstItem="cRd-OA-wEd" firstAttribute="centerX" secondItem="om5-Wi-EDk" secondAttribute="centerX" id="SPe-1w-fbH"/>
+                            <constraint firstItem="3Py-sw-ynk" firstAttribute="centerX" secondItem="om5-Wi-EDk" secondAttribute="centerX" id="SU7-oR-Rms"/>
+                            <constraint firstItem="c3y-jl-jTg" firstAttribute="width" secondItem="om5-Wi-EDk" secondAttribute="width" multiplier="0.4" id="Uyw-ty-ahI"/>
+                            <constraint firstItem="om5-Wi-EDk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="ZKb-Ta-aMx"/>
+                            <constraint firstItem="3Py-sw-ynk" firstAttribute="top" secondItem="om5-Wi-EDk" secondAttribute="top" id="aNJ-3U-T67"/>
+                            <constraint firstItem="3Py-sw-ynk" firstAttribute="width" secondItem="om5-Wi-EDk" secondAttribute="width" multiplier="0.35" id="aZS-mh-CrF"/>
+                            <constraint firstItem="Tf5-qg-PLy" firstAttribute="top" secondItem="om5-Wi-EDk" secondAttribute="top" id="dxs-P9-NWB"/>
+                            <constraint firstAttribute="trailing" secondItem="om5-Wi-EDk" secondAttribute="trailing" constant="20" id="kWh-7c-FH7"/>
+                            <constraint firstItem="pgG-yv-L4l" firstAttribute="bottom" secondItem="om5-Wi-EDk" secondAttribute="bottom" id="lP8-Sh-szT"/>
+                            <constraint firstItem="c3y-jl-jTg" firstAttribute="bottom" secondItem="om5-Wi-EDk" secondAttribute="bottom" multiplier="1.1" id="rka-dm-lCJ"/>
+                            <constraint firstItem="c3y-jl-jTg" firstAttribute="centerX" secondItem="om5-Wi-EDk" secondAttribute="centerX" id="sgY-ji-eKN"/>
+                            <constraint firstItem="pgG-yv-L4l" firstAttribute="centerX" secondItem="om5-Wi-EDk" secondAttribute="centerX" id="vqg-Yc-8Zl"/>
+                            <constraint firstItem="cRd-OA-wEd" firstAttribute="bottom" secondItem="om5-Wi-EDk" secondAttribute="bottom" multiplier="0.9" id="yH0-Xo-7qD"/>
+                            <constraint firstItem="Tf5-qg-PLy" firstAttribute="bottom" secondItem="om5-Wi-EDk" secondAttribute="bottom" multiplier="0.72" id="zio-YL-SGb"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="118.20652173913044"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Cert_BG.PNG" width="1009" height="1438"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
