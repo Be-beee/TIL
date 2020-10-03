@@ -23,6 +23,10 @@
 - [SwiftUI Tutorial: Text, Image, Buttons, Stack View](https://github.com/Be-beee/TIL-2/tree/main/SwiftUI/SwiftUI_Test)
 - [SwiftUI: List](https://github.com/Be-beee/TIL-2/tree/main/SwiftUI/List)
 - [SwiftUI: Form, ScrollView](https://github.com/Be-beee/TIL-2/tree/main/SwiftUI/ScrollView)
+- [SwiftUI: Picker](https://github.com/Be-beee/TIL-2/tree/main/SwiftUI/Picker)
+- [SwiftUI: Slider and Stepper](https://github.com/Be-beee/TIL-2/tree/main/SwiftUI/Slider_and_Stepper)
+- [SwiftUI: TabView](https://github.com/Be-beee/TIL-2/tree/main/SwiftUI/TabView)
+- [SwiftUI: NavigationView, Alert, ActionSheet](https://github.com/Be-beee/TIL-2/tree/main/SwiftUI/NavigationView)
 
 
 ## Algorithm & Data Structure 👀
