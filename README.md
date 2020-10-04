@@ -43,7 +43,10 @@
 ## 알고리즘 문제 풀이 🔥
 
 주로 [프로그래머스](https://programmers.co.kr/learn/challenges) 및 [백준 알고리즘](https://www.acmicpc.net) 내의 문제를 Swift로 풀이합니다.
-(추후 업데이트 예정입니다👩‍🔧)
+
+- [분수 찾기](https://github.com/Be-beee/TIL-2/tree/main/Solution/finding_fraction)
+- [소수 찾기](https://github.com/Be-beee/TIL-2/tree/main/Solution/finding_prime_1929)
+- [파도반 수열](https://github.com/Be-beee/TIL-2/tree/main/Solution/spiral_9461)
 
 
 ## References 👩‍💻
