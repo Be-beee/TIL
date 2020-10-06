@@ -44,9 +44,20 @@
 
 주로 [프로그래머스](https://programmers.co.kr/learn/challenges) 및 [백준 알고리즘](https://www.acmicpc.net) 내의 문제를 Swift로 풀이합니다.
 
-- [분수 찾기](https://github.com/Be-beee/TIL-2/tree/main/Solution/finding_fraction)
-- [소수 찾기](https://github.com/Be-beee/TIL-2/tree/main/Solution/finding_prime_1929)
-- [파도반 수열](https://github.com/Be-beee/TIL-2/tree/main/Solution/spiral_9461)
+- [1193 분수 찾기](https://github.com/Be-beee/TIL-2/tree/main/Solution/finding_fraction)
+- [1929 소수 찾기](https://github.com/Be-beee/TIL-2/tree/main/Solution/finding_prime_1929)
+- [9461 파도반 수열](https://github.com/Be-beee/TIL-2/tree/main/Solution/spiral_9461)
+- [4344 평균은 넘겠지](https://github.com/Be-beee/TIL-2/tree/main/Solution/average_4344)
+- [1302 베스트셀러](https://github.com/Be-beee/TIL-2/tree/main/Solution/bestceller_1302)
+- [2798 블랙잭](https://github.com/Be-beee/TIL-2/tree/main/Solution/blackjack_2798)
+- [2875 대회 or 인턴](https://github.com/Be-beee/TIL-2/tree/main/Solution/contest_or_intern_2875)
+- [5397 키로거](https://github.com/Be-beee/TIL-2/tree/main/Solution/keylogger_5397)
+- [6603 로또](https://github.com/Be-beee/TIL-2/tree/main/Solution/lotto_6603)
+- [1543 문서 찾기](https://github.com/Be-beee/TIL-2/tree/main/Solution/searching_document_1543)
+- [1874 스택 수열](https://github.com/Be-beee/TIL-2/tree/main/Solution/stack_progression_1874)
+- [8958 OX퀴즈](https://github.com/Be-beee/TIL-2/tree/main/Solution/OXquiz_8958)
+- [15649 N과 M](https://github.com/Be-beee/TIL-2/tree/main/Solution/N_and_M_15649)
+- [9012 괄호](https://github.com/Be-beee/TIL-2/tree/main/Solution/parenthesis_string_9012)
 
 
 ## References 👩‍💻
