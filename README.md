@@ -44,6 +44,8 @@
 
 주로 [프로그래머스](https://programmers.co.kr/learn/challenges) 및 [백준 알고리즘](https://www.acmicpc.net) 내의 문제를 Swift로 풀이합니다.
 
+### 백준 알고리즘
+
 - [1193 분수 찾기](https://github.com/Be-beee/TIL-2/tree/main/Solution/finding_fraction)
 - [1929 소수 찾기](https://github.com/Be-beee/TIL-2/tree/main/Solution/finding_prime_1929)
 - [9461 파도반 수열](https://github.com/Be-beee/TIL-2/tree/main/Solution/spiral_9461)
@@ -59,6 +61,21 @@
 - [15649 N과 M](https://github.com/Be-beee/TIL-2/tree/main/Solution/N_and_M_15649)
 - [9012 괄호](https://github.com/Be-beee/TIL-2/tree/main/Solution/parenthesis_string_9012)
 
+### 프로그래머스
+
+- [키패드 누르기](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_keypad)
+- [멀쩡한 사각형](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_valid_rectangle)
+- [프린터](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_printer)
+- [H-Index](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_h_index)
+- [튜플](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_tuple)
+- [위장](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_disguise)
+- [스킬트리](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_skill_tree)
+- [베스트 앨범](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_best_album)
+- [오픈 채팅방](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_open_chat)
+- [뉴스 클러스터링](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_news_clustering)
+- [타겟 넘버](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_target_number)
+- [N진수 게임](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_base_n)
+- [체육복](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_training_clothes)
 
 ## References 👩‍💻
 
