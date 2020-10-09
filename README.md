@@ -76,6 +76,8 @@
 - [타겟 넘버](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_target_number)
 - [N진수 게임](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_base_n)
 - [체육복](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_training_clothes)
+- [두 개 뽑아서 더하기](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_select_two)
+- [삼각 달팽이](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_tri_snail)
 
 ## References 👩‍💻
 
