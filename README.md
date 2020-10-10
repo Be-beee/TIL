@@ -60,6 +60,7 @@
 - [8958 OX퀴즈](https://github.com/Be-beee/TIL-2/tree/main/Solution/OXquiz_8958)
 - [15649 N과 M](https://github.com/Be-beee/TIL-2/tree/main/Solution/N_and_M_15649)
 - [9012 괄호](https://github.com/Be-beee/TIL-2/tree/main/Solution/parenthesis_string_9012)
+- [1913 달팽이](https://github.com/Be-beee/TIL-2/tree/main/Solution/snail_1913)
 
 ### 프로그래머스
 
@@ -78,6 +79,7 @@
 - [체육복](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_training_clothes)
 - [두 개 뽑아서 더하기](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_select_two)
 - [삼각 달팽이](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_tri_snail)
+- [풍선 터트리기](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_balloon)
 
 ## References 👩‍💻
 
