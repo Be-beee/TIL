@@ -80,6 +80,8 @@
 - [두 개 뽑아서 더하기](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_select_two)
 - [삼각 달팽이](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_tri_snail)
 - [풍선 터트리기](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_balloon)
+- [3진법 뒤집기](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_base_3)
+- [소수 찾기](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_finding_prime)
 
 ## References 👩‍💻
 
