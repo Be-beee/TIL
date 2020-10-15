@@ -38,6 +38,8 @@
 - [Binary Search](https://github.com/Be-beee/TIL-2/tree/main/Algorithm/Binary_Search)
 - [Insert Sort](https://github.com/Be-beee/TIL-2/tree/main/Algorithm/InsertSort)
 - [Selection Sort](https://github.com/Be-beee/TIL-2/tree/main/Algorithm/Selection_Sort)
+- [DFS](https://github.com/Be-beee/TIL-2/tree/main/Algorithm/DFS)
+- [BFS](https://github.com/Be-beee/TIL-2/tree/main/Algorithm/BFS)
 
 
 ## 알고리즘 문제 풀이 🔥
