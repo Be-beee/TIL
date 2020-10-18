@@ -27,7 +27,8 @@
 - [SwiftUI: Slider and Stepper](https://github.com/Be-beee/TIL-2/tree/main/SwiftUI/Slider_and_Stepper)
 - [SwiftUI: TabView](https://github.com/Be-beee/TIL-2/tree/main/SwiftUI/TabView)
 - [SwiftUI: NavigationView, Alert, ActionSheet](https://github.com/Be-beee/TIL-2/tree/main/SwiftUI/NavigationView)
-
+<br>
+<br>
 
 ## Algorithm & Data Structure 👀
 
@@ -40,7 +41,8 @@
 - [Selection Sort](https://github.com/Be-beee/TIL-2/tree/main/Algorithm/Selection_Sort)
 - [DFS](https://github.com/Be-beee/TIL-2/tree/main/Algorithm/DFS)
 - [BFS](https://github.com/Be-beee/TIL-2/tree/main/Algorithm/BFS)
-
+<br>
+<br>
 
 ## 알고리즘 문제 풀이 🔥
 
@@ -64,6 +66,7 @@
 - [9012 괄호](https://github.com/Be-beee/TIL-2/tree/main/Solution/parenthesis_string_9012)
 - [1913 달팽이](https://github.com/Be-beee/TIL-2/tree/main/Solution/snail_1913)
 - [2667 단지 번호 붙이기](https://github.com/Be-beee/TIL-2/tree/main/Solution/zipcode_2667)
+- [2884 알람시계](https://github.com/Be-beee/TIL-2/tree/main/Solution/alarm_clock_2884)
 
 ### 프로그래머스
 
@@ -85,6 +88,13 @@
 - [풍선 터트리기](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_balloon)
 - [3진법 뒤집기](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_base_3)
 - [소수 찾기](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_finding_prime)
+
+### 이것이 코딩테스트다 문제 풀이
+
+- [4-2. 왕실의 나이트](https://github.com/Be-beee/TIL-2/tree/main/Solution/Chess_knight)
+- [기출: 볼링공 고르기](https://github.com/Be-beee/TIL-2/tree/main/Solution/Bowling_ball)
+<br>
+<br>
 
 ## References 👩‍💻
 
