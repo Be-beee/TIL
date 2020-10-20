@@ -67,6 +67,8 @@
 - [1913 달팽이](https://github.com/Be-beee/TIL-2/tree/main/Solution/snail_1913)
 - [2667 단지 번호 붙이기](https://github.com/Be-beee/TIL-2/tree/main/Solution/zipcode_2667)
 - [2884 알람시계](https://github.com/Be-beee/TIL-2/tree/main/Solution/alarm_clock_2884)
+- [1012 유기농 배추](https://github.com/Be-beee/TIL-2/tree/main/Solution/lettuce_1012)
+- [2178 미로 탐색](https://github.com/Be-beee/TIL-2/tree/main/Solution/maze_2178)
 
 ### 프로그래머스
 
