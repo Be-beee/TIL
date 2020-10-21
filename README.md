@@ -90,10 +90,13 @@
 - [풍선 터트리기](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_balloon)
 - [3진법 뒤집기](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_base_3)
 - [소수 찾기](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_finding_prime)
+- [실패율](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_failure)
 
 ### 이것이 코딩테스트다 문제 풀이
 
 - [4-2. 왕실의 나이트](https://github.com/Be-beee/TIL-2/tree/main/Solution/Chess_knight)
+- [정렬된 배열에서 특정 수의 개수 구하기](https://github.com/Be-beee/TIL-2/tree/main/Solution/binary_search_ex)
+- [고정점 찾기](https://github.com/Be-beee/TIL-2/tree/main/Solution/fixed_point)
 - [기출: 볼링공 고르기](https://github.com/Be-beee/TIL-2/tree/main/Solution/Bowling_ball)
 <br>
 <br>
