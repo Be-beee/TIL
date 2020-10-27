@@ -74,6 +74,8 @@
 - [1654 랜선 자르기](https://github.com/Be-beee/TIL-2/tree/main/Solution/Cutting_Line_1654)
 - [2775 부녀회장이 될테야](https://github.com/Be-beee/TIL-2/tree/main/Solution/apartment_2775)
 - [1697 숨바꼭질](https://github.com/Be-beee/TIL-2/tree/main/Solution/hideandseek_1697)
+- [7576 토마토](https://github.com/Be-beee/TIL-2/tree/main/Solution/tomato_7576)
+- [18352 특정 거리의 도시 찾기](https://github.com/Be-beee/TIL-2/tree/main/Solution/special_distance_city_18352)
 
 ### 프로그래머스
 
