@@ -76,6 +76,7 @@
 - [1697 숨바꼭질](https://github.com/Be-beee/TIL-2/tree/main/Solution/hideandseek_1697)
 - [7576 토마토](https://github.com/Be-beee/TIL-2/tree/main/Solution/tomato_7576)
 - [18352 특정 거리의 도시 찾기](https://github.com/Be-beee/TIL-2/tree/main/Solution/special_distance_city_18352)
+- [1932 정수 삼각형](https://github.com/Be-beee/TIL-2/tree/main/Solution/triangle_1932)
 
 ### 프로그래머스
 
