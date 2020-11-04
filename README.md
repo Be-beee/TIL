@@ -77,6 +77,9 @@
 - [7576 토마토](https://github.com/Be-beee/TIL-2/tree/main/Solution/tomato_7576)
 - [18352 특정 거리의 도시 찾기](https://github.com/Be-beee/TIL-2/tree/main/Solution/special_distance_city_18352)
 - [1932 정수 삼각형](https://github.com/Be-beee/TIL-2/tree/main/Solution/triangle_1932)
+- [2581 소수 찾기](https://github.com/Be-beee/TIL-2/tree/main/Solution/prime_2581)
+- [11399 ATM](https://github.com/Be-beee/TIL-2/tree/main/Solution/ATM_11399)
+- [1541 잃어버린 괄호](https://github.com/Be-beee/TIL-2/tree/main/Solution/ps_1541)
 
 ### 프로그래머스
 
