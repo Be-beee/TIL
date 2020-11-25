@@ -81,6 +81,7 @@
 - [11399 ATM](https://github.com/Be-beee/TIL-2/tree/main/Solution/ATM_11399)
 - [1541 잃어버린 괄호](https://github.com/Be-beee/TIL-2/tree/main/Solution/ps_1541)
 - [10816 숫자 카드2](https://github.com/Be-beee/TIL-2/tree/main/Solution/number_card2_10816)
+- [10828 스택](https://github.com/Be-beee/TIL-2/tree/main/Solution/stack_10828)
 
 ### 프로그래머스
 
