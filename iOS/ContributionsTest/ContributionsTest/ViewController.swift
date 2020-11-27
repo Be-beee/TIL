@@ -19,7 +19,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         callAPI()
     }
     func callAPI() {
@@ -30,8 +29,6 @@ class ViewController: UIViewController {
             guard error == nil, let statusCode = (response as? HTTPURLResponse)?.statusCode, success.contains(statusCode) else { return }
             guard let result = data else { return }
             let parser = ContributionsParser(data: result)
-//            xmlParser.delegate = self
-//            xmlParser.parse()
             DispatchQueue.main.async {
                 self.userContributions = parser.userContributions
                 self.userId.text = self.userContributions?.userID
@@ -42,18 +39,9 @@ class ViewController: UIViewController {
         }
         dataTask.resume()
     }
-
-    // https://github.com/users/Be-beee/contributions
-    // rest api
-    // get contributions
-    // rect -> data-count, data-date
-    // h2 -> total commit counts (last year)
-    
 }
 
-extension ViewController: UITableViewDelegate {
-    
-}
+extension ViewController: UITableViewDelegate {}
 
 extension ViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -69,61 +57,4 @@ extension ViewController: UITableViewDataSource {
     }
 }
 
-extension ViewController: XMLParserDelegate {
-    
-}
 
-class CommitCell: UITableViewCell {
-    @IBOutlet weak var dateLabel: UILabel!
-    @IBOutlet weak var countLabel: UILabel!
-}
-
-struct UserContributions {
-    var total: Int = 0
-    var userID: String = "Be-beee"
-    var commitHistory: [UserCommitData] = []
-}
-
-class ContributionsParser: NSObject, XMLParserDelegate {
-    var userContributions = UserContributions()
-    var tag: Tag = .none
-    var totalString = ""
-    override init() {
-        super.init()
-    }
-    
-    init(data: Data) {
-        super.init()
-        let parser = XMLParser(data: data)
-        parser.delegate = self
-        parser.parse()
-        getTotal()
-    }
-    
-    func parser(_ parser: XMLParser, didStartElement elementName: String, namespaceURI: String?, qualifiedName qName: String?, attributes attributeDict: [String : String] = [:]) {
-        if elementName == "h2" {
-            tag = .h2
-        } else if elementName == "rect" {
-            tag = .rect
-            if let date = attributeDict["data-date"], let count = attributeDict["data-count"] {
-                let commitData = (date: date, count: Int(count) ?? 0)
-                userContributions.commitHistory.insert(commitData, at: 0)
-            }
-        } else {
-            tag = .none
-        }
-    }
-    func parser(_ parser: XMLParser, foundCharacters string: String) {
-        if tag == .h2 {
-            totalString += string
-        }
-    }
-    
-    func getTotal() {
-        let tmp = totalString.components(separatedBy: " ").filter{ $0 != "" && $0 != "\n" }
-        userContributions.total = Int(tmp[0]) ?? 0
-    }
-}
-enum Tag {
-    case h2, rect, none
-}
