@@ -9,7 +9,7 @@
 - [Hamburger Menu2](https://github.com/Be-beee/TIL-2/tree/main/iOS/HamburgerMenu_2)
 - [Custom Collection View (Carousel View)](https://github.com/Be-beee/TIL-2/tree/main/iOS/CollectionView_Custom)
 - [Attributed Text with UILabel](https://github.com/Be-beee/TIL-2/tree/main/iOS/AttributedString_Test)
-- [XMLParser Test](https://github.com/Be-beee/TIL-2/tree/main/iOS/ContributioinsTest)
+- [XMLParser Test](https://github.com/Be-beee/TIL-2/tree/main/iOS/ContributionsTest)
 
 ### Autolayout
 
