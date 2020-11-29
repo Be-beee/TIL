@@ -43,6 +43,7 @@
 - [Queue](https://github.com/Be-beee/TIL-2/tree/main/Algorithm/Queue)
 - [Deque](https://github.com/Be-beee/TIL-2/tree/main/Algorithm/Deque)
 - [Linked List](https://github.com/Be-beee/TIL-2/tree/main/Algorithm/Linked_List)
+- [Heap](https://github.com/Be-beee/TIL-2/tree/main/Algorithm/Heap)
 - [Binary Search](https://github.com/Be-beee/TIL-2/tree/main/Algorithm/Binary_Search)
 - [Insert Sort](https://github.com/Be-beee/TIL-2/tree/main/Algorithm/InsertSort)
 - [Selection Sort](https://github.com/Be-beee/TIL-2/tree/main/Algorithm/Selection_Sort)
@@ -123,5 +124,6 @@
 
 ## References 👩‍💻
 
+- [Swift Algorithm Club](https://github.com/raywenderlich/swift-algorithm-club)
 - [iOS Autolayout 완벽 가이드](https://www.inflearn.com/course/autolayout)
 - [SwiftUI 개념 익히기](https://www.inflearn.com/course/SwiftUI-개념-iOS)
