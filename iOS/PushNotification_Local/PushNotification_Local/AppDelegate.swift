@@ -10,14 +10,11 @@ import UserNotifications
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-    
-    let data = 1
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
         UNUserNotificationCenter.current().delegate = self
         requestNotificationAuthorization()
-        sendNotification(seconds: 10)
+        sendNotification(hour: 21, minute: 40)
         return true
     }
 
@@ -58,14 +55,14 @@ extension AppDelegate: UNUserNotificationCenterDelegate {
         
     }
     
-    func sendNotification(seconds: Double) {
+    func sendNotification(hour: Int, minute: Int) {
         let notificationContent = UNMutableNotificationContent()
         notificationContent.title = "알림 테스트입니다."
         notificationContent.body = "알림 테스트"
         
         var date = DateComponents()
-        date.hour = 21
-        date.minute = 40
+        date.hour = hour
+        date.minute = minute
         let trigger = UNCalendarNotificationTrigger(dateMatching: date, repeats: true)
         let request = UNNotificationRequest(identifier: "testNotification", content: notificationContent, trigger: trigger)
         
