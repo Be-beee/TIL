@@ -12,6 +12,7 @@
 - [XMLParser Test](https://github.com/Be-beee/TIL-2/tree/main/iOS/ContributionsTest)
 - [LoginPageConfig](https://github.com/Be-beee/TIL-2/tree/main/iOS/LoginPageConfig)
 - [Local Push Notification](https://github.com/Be-beee/TIL-2/tree/main/iOS/PushNotification_Local)
+- [Send Email](https://github.com/Be-beee/TIL-2/tree/main/iOS/EmailTest)
 
 ### Autolayout
 
