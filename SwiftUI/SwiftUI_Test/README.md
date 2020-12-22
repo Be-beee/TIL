@@ -51,6 +51,49 @@ Text("background_first")
 <br>
 <br>
 
+## Image
+
+UIKit의 `UIImageView`와 같은 역할을 하는 View. `UIImage`를 이니셜라이징 할 때처럼 사용 가능하다.
+
+### 사용 예시
+
+```swift
+Image(systemName: "heart.fill")
+
+Image("sampleImage.png")
+
+Image(uiImage: UIImage(named: "MyImage"))
+```
+<br>
+<br>
+
+### 주요 메서드
+
+- `resizable()`: 이미지 크기 조절을 위한 메서드.
+
+- `aspectRatio(contentMode:)`: 정해진 사이즈에 이미지를 채우는 방법 지정. `.fill`, `.fit` 2가지의 옵션이 있다.
+
+- `edgesIgnoringSafeArea(_:)`: safe area를 벗어나는 영역에 이미지를 배치하거나 safe area를 넘어서는 영역까지 이미지의 크기를 늘릴 때 사용하는 메서드. `.all` 을 통해 SuperView까지 이미지의 영역을 넓힐 수 있다.
+
+- `mask()`: 이미지 마스킹 메서드. 프로그래머가 원하는 형태로 이미지를 마스킹할 수 있다.
+```swift
+Image("sample")
+    .resizable()
+    .aspectRatio(contentMode: .fill)
+    .frame(width: 200, height: 200, alignment: .center)
+    .mask(
+        Circle()
+    )
+```
+<div style="text-align: center;">
+	<img src="./images/image_test.png" width="40%">
+</div>
+
+<br>
+<br>
+<br>
+
 ## 참고
 
 - [Apple Developer Documentation - Text](https://developer.apple.com/documentation/swiftui/text)
+- [Apple Developer Documentation - Image](https://developer.apple.com/documentation/swiftui/image)
