@@ -29,6 +29,7 @@
 
 
 - [4344 평균은 넘겠지](https://github.com/Be-beee/TIL-2/tree/main/Solution/average_4344)
+- [4948 베르트랑 공준](https://github.com/Be-beee/TIL-2/tree/main/Solution/bertrand_4948)
 - [4949 균형잡힌 세상](https://github.com/Be-beee/TIL-2/tree/main/Solution/balance_4949)
 - [5397 키로거](https://github.com/Be-beee/TIL-2/tree/main/Solution/keylogger_5397)
 - [6603 로또](https://github.com/Be-beee/TIL-2/tree/main/Solution/lotto_6603)
