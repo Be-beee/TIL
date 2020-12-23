@@ -123,6 +123,43 @@ Toggle(isOn: $isHidden, label: {
 <br>
 <br>
 
+## Stack
+
+여러 View를 ContentView 안에 배치하기 위해서는 Stack View로 묶어야 한다.<br>
+`HStack`, `VStack`, `ZStack`의 세 종류가 있다.
+
+<div style="text-align: center;">
+	<img src="./images/hstack.png" width="30%">
+	<img src="./images/vstack.png" width="30%">
+	<img src="./images/zstack.png" width="30%">
+</div>
+
+### 사용 예시
+
+```swift
+HStack {
+	Text("HStack")
+	Text("Horizontal")
+	Text("Hello")
+}
+
+VStack(spacing: 20) {
+	Text("VStack")
+	Text("Vertical")
+	Text("Hello")
+}
+
+ZStack(alignment: .center) {
+	Color(.yellow)
+	Text("ZStack")
+	Text("Z-axis")
+}
+```
+
+<br>
+<br>
+<br>
+
 ## 참고
 
 - [Apple Developer Documentation - Text](https://developer.apple.com/documentation/swiftui/text)
