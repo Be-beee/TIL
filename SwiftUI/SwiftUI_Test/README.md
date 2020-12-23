@@ -93,7 +93,39 @@ Image("sample")
 <br>
 <br>
 
+## Button, Toggle
+
+각각 UIKit의 `UIButton`, `UISwitch`와 같은 역할을 하는 제어 뷰.
+
+### 사용 예시
+
+```swift
+@State var isHidden = false
+// 중략
+
+Button(action: {
+	// action
+	isHidden.toggle()
+}, label: {
+	// display
+	Text("Hello world")
+})
+
+Toggle(isOn: $isHidden, label: {
+	Text("show image")
+})
+```
+<div>
+	<img src="./images/toggle_test.png" width="40%">
+	<img src="./images/toggle_test2.png" width="40%">
+</div>
+<br>
+<br>
+<br>
+
 ## 참고
 
 - [Apple Developer Documentation - Text](https://developer.apple.com/documentation/swiftui/text)
 - [Apple Developer Documentation - Image](https://developer.apple.com/documentation/swiftui/image)
+- [Apple Developer Documentation - Button](https://developer.apple.com/documentation/swiftui/button)
+- [Apple Developer Documentation - Toggle](https://developer.apple.com/documentation/swiftui/toggle)
