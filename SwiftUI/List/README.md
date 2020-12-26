@@ -105,6 +105,49 @@ struct ContentView: View {
 ```
 <br>
 <br>
+<br>
+
+## Section을 이용한 리스트 구성
+
+### 사용 예시
+
+```swift
+struct Info: Identifiable {
+    var id = UUID()
+    var name: String = ""
+    var age: Int = 0
+}
+
+struct ContentView: View {
+    
+    @State private var data = [
+        Info(name: "chulsoo", age: 15),
+        Info(name: "miyeon", age: 21),
+        Info(name: "hyosun", age: 19)
+    ]
+    
+    var body: some View {
+        List {
+            Section(header: Text("People")) {
+                ForEach(data) { person in
+                    HStack {
+                        Text(person.name)
+                        Text("\(person.age)")
+                    }
+                }
+            }
+            
+        }
+    }
+}
+```
+
+<div style="text-align: center;">
+    <img src="./images/section.png" width="40%">
+</div>
+<br>
+<br>
+<br>
 
 ## 참고
 
