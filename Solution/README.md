@@ -23,6 +23,7 @@
 - [2667 단지 번호 붙이기](https://github.com/Be-beee/TIL-2/tree/main/Solution/zipcode_2667)
 - [2775 부녀회장이 될테야](https://github.com/Be-beee/TIL-2/tree/main/Solution/apartment_2775)
 - [2798 블랙잭](https://github.com/Be-beee/TIL-2/tree/main/Solution/blackjack_2798)
+- [2805 나무 자르기](https://github.com/Be-beee/TIL-2/tree/main/Solution/cutting_tree_2805)
 - [2839 설탕 배달](https://github.com/Be-beee/TIL-2/tree/main/Solution/sugar_2839)
 - [2875 대회 or 인턴](https://github.com/Be-beee/TIL-2/tree/main/Solution/contest_or_intern_2875)
 - [2884 알람시계](https://github.com/Be-beee/TIL-2/tree/main/Solution/alarm_clock_2884)
