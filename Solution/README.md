@@ -37,6 +37,7 @@
 - [7576 토마토](https://github.com/Be-beee/TIL-2/tree/main/Solution/tomato_7576)
 - [8958 OX퀴즈](https://github.com/Be-beee/TIL-2/tree/main/Solution/OXquiz_8958)
 - [9012 괄호](https://github.com/Be-beee/TIL-2/tree/main/Solution/parenthesis_string_9012)
+- [9020 골드바흐의 추측](https://github.com/Be-beee/TIL-2/tree/main/Solution/goldbach_9020)
 - [9461 파도반 수열](https://github.com/Be-beee/TIL-2/tree/main/Solution/spiral_9461)
 
 
