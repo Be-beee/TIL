@@ -2,7 +2,7 @@
 
 메서드 호출 대신, 데이터를 회수하고 변형시키는 메커니즘. <br>
 
-`Observable` 에서 하나 또는 일련의 객체들을 반환할 때, `Observable`을 지켜보고 있는(subscribe) 옵저버가 반환된 객체를 읽어들인다.<br>
+`Observable` 에서 하나 또는 일련의 항목을 배출할 때, `Observable`을 지켜보고 있는(subscribe) 옵저버가 배출된 항목을 읽어들인다.<br>
 
 이러한 접근의 장점은 프로그래머가 다루는 다수의 작업들이 서로를 간섭하지 않을 때 작업을 비동기적으로 처리하기 용이해진다는 것이다. 이로 인해 각 작업을 동기적으로 처리할 때보다 훨씬 적은 시간이 들게 된다. (아래 인용문 참조.)
 
@@ -68,11 +68,23 @@ downloadJson(MEMBER_LIST_URL)
 
 ## Hot Observable vs Cold Observable
 
->A “hot” Observable may begin emitting items as soon as it is created, and so any observer who later subscribes to that Observable may start observing the sequence somewhere in the middle. A “cold” Observable, on the other hand, waits until an observer subscribes to it before it begins to emit items, and so such an observer is guaranteed to see the whole sequence from the beginning.
+hot Observable은 생성되자마자 객체를 배출하기 때문에, 옵저버는 객체가 배출되는 중간부터 Observable을 구독(`subscribe`)할 수 있다. 반면 cold Observable은 옵저버가 구독하기 전까지 객체 배출을 하지 않고 기다린다. 옵저버가 구독하고 난 이후 객체를 배출하기 때문에 Observable이 배출하는 항목 전체를 구독할 수 있도록 보장 받는다.<br>
+
+[Hot Observable과 Cold Observable의 이해를 돕기 위한 글](https://brunch.co.kr/@tilltue/18)
 
 <br><br>
 
-## Observable Operators 비교하기
+## Observable 연산자
+
+- Observable 생성: `create` / `from`,  `just`
+- Observable 항목 변환: `flatMap`, `groupBy`, `map`
+- Observable 필터: `filter`, `take`
+- Observable 결합: `and`/ `then`/ `when`, `combine`, `join`, `merge`, `zip`
+- 오류 처리 연산자: `catch`, `retry`
+- 유틸리티 연산자: `observeOn`, `subscribe`, `subscribeOn`
+- 조건 및 Boolean 연산자: `all`, `contains`
+- 수학과 조합 연산자: `average`, `concat`, `count`, `max`, `min`, `reduce`, `sum`
+- 변환 Observable: `to`
 
 <br><br>
 
@@ -80,4 +92,5 @@ downloadJson(MEMBER_LIST_URL)
 
 - [ReactiveX - Observable](http://reactivex.io/documentation/ko/observable.html)
 - [RxSwift 4시간 만에 끝내기](https://www.youtube.com/watch?v=w5Qmie-GbiA&t=4842s)
+- [Hot Observable vs Cold Observable](https://brunch.co.kr/@tilltue/18)
 
