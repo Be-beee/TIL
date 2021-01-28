@@ -160,9 +160,50 @@ ZStack(alignment: .center) {
 <br>
 <br>
 
+## Placeholder
+
+블라인드 처리 효과를 낼 때 사용한다. 
+
+```swift
+Text("hello world")
+	.redacted(reason: .placeholder)
+```
+
+```
+struct ContentView: View {
+    @State private var myString = "hello world"
+    @State private var showPlaceholder = false
+    var body: some View {
+        VStack {
+            VStack {
+                Image(systemName: "person")
+                    .resizable()
+                    .frame(width: 100, height: 100)
+                    .clipShape(Circle())
+                Text(myString)
+                    .padding()
+            }.redacted(reason: showPlaceholder ? .placeholder : .init())
+            
+            Button("click me") {
+                showPlaceholder.toggle()
+            }
+        }
+        
+    }
+}
+```
+
+<div style="text-align: center;">
+  <img src="./images/placeholder1.png" width="40%">
+  <img src="./images/placeholder2.png" width="40%">
+</div>
+
+<br><br><br>
+
 ## 참고
 
 - [Apple Developer Documentation - Text](https://developer.apple.com/documentation/swiftui/text)
 - [Apple Developer Documentation - Image](https://developer.apple.com/documentation/swiftui/image)
 - [Apple Developer Documentation - Button](https://developer.apple.com/documentation/swiftui/button)
 - [Apple Developer Documentation - Toggle](https://developer.apple.com/documentation/swiftui/toggle)
+- [SwiftUI - iOS14 퍼펙트 가이드](https://www.inflearn.com/course/swift-ui-ios14/dashboard)
