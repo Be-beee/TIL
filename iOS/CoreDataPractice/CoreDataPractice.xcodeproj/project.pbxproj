@@ -16,6 +16,7 @@
 		B5A44EC125F1F8BA000157F0 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B5A44EBF25F1F8BA000157F0 /* Model.xcdatamodeld */; };
 		B5A44EC625F1F963000157F0 /* Contact+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A44EC425F1F963000157F0 /* Contact+CoreDataClass.swift */; };
 		B5A44EC725F1F963000157F0 /* Contact+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A44EC525F1F963000157F0 /* Contact+CoreDataProperties.swift */; };
+		B5A44ED025F220B3000157F0 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A44ECF25F220B3000157F0 /* PersistenceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		B5A44EC025F1F8BA000157F0 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		B5A44EC425F1F963000157F0 /* Contact+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contact+CoreDataClass.swift"; sourceTree = "<group>"; };
 		B5A44EC525F1F963000157F0 /* Contact+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contact+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B5A44ECF25F220B3000157F0 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 			children = (
 				B5A44EAA25F1F588000157F0 /* AppDelegate.swift */,
 				B5A44EAC25F1F588000157F0 /* SceneDelegate.swift */,
+				B5A44ECF25F220B3000157F0 /* PersistenceManager.swift */,
 				B5A44EAE25F1F588000157F0 /* ViewController.swift */,
 				B5A44EB025F1F588000157F0 /* Main.storyboard */,
 				B5A44EBF25F1F8BA000157F0 /* Model.xcdatamodeld */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5A44EC725F1F963000157F0 /* Contact+CoreDataProperties.swift in Sources */,
+				B5A44ED025F220B3000157F0 /* PersistenceManager.swift in Sources */,
 				B5A44EAF25F1F588000157F0 /* ViewController.swift in Sources */,
 				B5A44EAB25F1F588000157F0 /* AppDelegate.swift in Sources */,
 				B5A44EAD25F1F588000157F0 /* SceneDelegate.swift in Sources */,
