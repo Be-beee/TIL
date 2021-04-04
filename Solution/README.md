@@ -19,6 +19,7 @@
 
 
 - [2178 미로 탐색](https://github.com/Be-beee/TIL-2/tree/main/Solution/maze_2178)
+- [2231 분해합](https://github.com/Be-beee/TIL-2/tree/main/Solution/Divided_sum_2231)
 - [2581 소수 찾기](https://github.com/Be-beee/TIL-2/tree/main/Solution/prime_2581)
 - [2667 단지 번호 붙이기](https://github.com/Be-beee/TIL-2/tree/main/Solution/zipcode_2667)
 - [2775 부녀회장이 될테야](https://github.com/Be-beee/TIL-2/tree/main/Solution/apartment_2775)
