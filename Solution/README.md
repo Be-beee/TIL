@@ -35,6 +35,7 @@
 - [4949 균형잡힌 세상](https://github.com/Be-beee/TIL-2/tree/main/Solution/balance_4949)
 - [5397 키로거](https://github.com/Be-beee/TIL-2/tree/main/Solution/keylogger_5397)
 - [6603 로또](https://github.com/Be-beee/TIL-2/tree/main/Solution/lotto_6603)
+- [7568 벌크](https://github.com/Be-beee/TIL-2/tree/main/Solution/Bulk_7568)
 - [7576 토마토](https://github.com/Be-beee/TIL-2/tree/main/Solution/tomato_7576)
 - [8958 OX퀴즈](https://github.com/Be-beee/TIL-2/tree/main/Solution/OXquiz_8958)
 - [9012 괄호](https://github.com/Be-beee/TIL-2/tree/main/Solution/parenthesis_string_9012)
