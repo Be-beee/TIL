@@ -48,6 +48,7 @@
 - [10828 스택](https://github.com/Be-beee/TIL-2/tree/main/Solution/stack_10828)
 - [10866 덱](https://github.com/Be-beee/TIL-2/tree/main/Solution/deque_10866)
 - [11399 ATM](https://github.com/Be-beee/TIL-2/tree/main/Solution/ATM_11399)
+- [13305 주유소](https://github.com/Be-beee/TIL-2/tree/main/Solution/Gas_station_13305)
 - [15649 N과 M](https://github.com/Be-beee/TIL-2/tree/main/Solution/N_and_M_15649)
 - [15650 N과 M(2)](https://github.com/Be-beee/TIL-2/tree/main/Solution/N_and_M_15650)
 - [18352 특정 거리의 도시 찾기](https://github.com/Be-beee/TIL-2/tree/main/Solution/special_distance_city_18352)
