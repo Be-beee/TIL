@@ -12,6 +12,7 @@
 - [1543 문서 찾기](https://github.com/Be-beee/TIL-2/tree/main/Solution/searching_document_1543)
 - [1654 랜선 자르기](https://github.com/Be-beee/TIL-2/tree/main/Solution/Cutting_Line_1654)
 - [1697 숨바꼭질](https://github.com/Be-beee/TIL-2/tree/main/Solution/hideandseek_1697)
+- [1759 암호 만들기](https://github.com/Be-beee/TIL-2/tree/main/Solution/Making_Pw_1759)
 - [1874 스택 수열](https://github.com/Be-beee/TIL-2/tree/main/Solution/stack_progression_1874)
 - [1913 달팽이](https://github.com/Be-beee/TIL-2/tree/main/Solution/snail_1913)
 - [1929 소수 찾기](https://github.com/Be-beee/TIL-2/tree/main/Solution/finding_prime_1929)
