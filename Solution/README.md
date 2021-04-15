@@ -35,6 +35,7 @@
 - [4948 베르트랑 공준](https://github.com/Be-beee/TIL-2/tree/main/Solution/bertrand_4948)
 - [4949 균형잡힌 세상](https://github.com/Be-beee/TIL-2/tree/main/Solution/balance_4949)
 - [5397 키로거](https://github.com/Be-beee/TIL-2/tree/main/Solution/keylogger_5397)
+- [5430 AC](https://github.com/Be-beee/TIL-2/tree/main/Solution/AC_5430)
 - [6603 로또](https://github.com/Be-beee/TIL-2/tree/main/Solution/lotto_6603)
 - [7568 벌크](https://github.com/Be-beee/TIL-2/tree/main/Solution/Bulk_7568)
 - [7576 토마토](https://github.com/Be-beee/TIL-2/tree/main/Solution/tomato_7576)
