@@ -6,6 +6,7 @@
 
 - [1003 피보나치 함수](https://github.com/Be-beee/TIL-2/tree/main/Solution/fibonacci_1003)
 - [1012 유기농 배추](https://github.com/Be-beee/TIL-2/tree/main/Solution/lettuce_1012)
+- [1149 RGB 거리](https://github.com/Be-beee/TIL-2/tree/main/Solution/RGB_distance_1149)
 - [1193 분수 찾기](https://github.com/Be-beee/TIL-2/tree/main/Solution/finding_fraction)
 - [1302 베스트셀러](https://github.com/Be-beee/TIL-2/tree/main/Solution/bestceller_1302)
 - [1541 잃어버린 괄호](https://github.com/Be-beee/TIL-2/tree/main/Solution/ps_1541)
