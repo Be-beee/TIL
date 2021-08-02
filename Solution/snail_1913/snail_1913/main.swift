@@ -16,10 +16,10 @@ func snail(n: Int) -> [[Int]] {
     var j = 1
     var c = n*n
     for i in 0 ... n+1 {
-        res[0][i] = 1
-        res[n+1][i] = 1
-        res[i][0] = 1
-        res[i][n+1] = 1
+        res[0][i] = -1
+        res[n+1][i] = -1
+        res[i][0] = -1
+        res[i][n+1] = -1
     }
     
     while c >= 1 {
