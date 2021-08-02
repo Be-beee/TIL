@@ -53,12 +53,10 @@ while curIdx < queue.count {
     }
 }
 
-if spread {
-    if tomatos.contains(where: { $0.contains(0) }) {
-        print(-1)
-    } else {
-        print(max-1)
-    }
+if tomatos.contains(where: { $0.contains(0) }) {
+    print(-1)
+} else if spread {
+    print(max-1)
 } else {
     print(0)
 }
