@@ -14,6 +14,7 @@
 - [Local Push Notification](https://github.com/Be-beee/TIL-2/tree/main/iOS/PushNotification_Local)
 - [Send Email](https://github.com/Be-beee/TIL-2/tree/main/iOS/EmailTest)
 - [Core Data](https://github.com/Be-beee/TIL-2/tree/main/iOS/CoreDataPractice)
+- Widget (Static, Dynamic): 작성 중
 
 ### Autolayout
 
