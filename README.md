@@ -15,6 +15,7 @@
 - [Send Email](https://github.com/Be-beee/TIL-2/tree/main/iOS/EmailTest)
 - [Core Data](https://github.com/Be-beee/TIL-2/tree/main/iOS/CoreDataPractice)
 - Widget (Static, Dynamic): 작성 중
+- CustomCalendarView 작성 중
 
 ### Autolayout
 
@@ -65,7 +66,7 @@
 
 주로 [프로그래머스](https://programmers.co.kr/learn/challenges) 및 [백준 알고리즘](https://www.acmicpc.net) 내의 문제를 Swift로 풀이합니다.
 
-[이동](https://github.com/Be-beee/TIL-2/tree/main/Solution/README.md)
+[👉 문제 풀이로 이동](https://github.com/Be-beee/TIL-2/tree/main/Solution/README.md)
 
 <br>
 <br>
