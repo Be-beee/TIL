@@ -15,6 +15,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        if UserDefaults.shared?.object(forKey: "name") == nil {
+            UserDefaults.shared?.setValue("Be-beee", forKey: "name")
+            UserDefaults.shared?.setValue("iOS Developer", forKey: "job")
+            UserDefaults.shared?.setValue("maybutter756@gmail.com", forKey: "email")
+            UserDefaults.shared?.setValue("https://github.com/be-beee", forKey: "github")
+            UserDefaults.shared?.setValue("https://avatars.githubusercontent.com/u/50136980?v=4", forKey: "img")
+        }
         return true
     }
 

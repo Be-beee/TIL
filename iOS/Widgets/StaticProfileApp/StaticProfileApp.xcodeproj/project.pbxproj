@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B56643F926EA24D100F068D6 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56643F826EA24D100F068D6 /* Common.swift */; };
+		B56643FA26EA24DB00F068D6 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56643F826EA24D100F068D6 /* Common.swift */; };
+		B56643FD26EA345E00F068D6 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BB48326E8979A00EBF3D3 /* Profile.swift */; };
 		B58BB46B26E8976C00EBF3D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BB46A26E8976C00EBF3D3 /* AppDelegate.swift */; };
 		B58BB46D26E8976C00EBF3D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BB46C26E8976C00EBF3D3 /* SceneDelegate.swift */; };
 		B58BB46F26E8976C00EBF3D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58BB46E26E8976C00EBF3D3 /* ViewController.swift */; };
@@ -46,6 +49,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B56643F826EA24D100F068D6 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		B56643FB26EA257B00F068D6 /* ProfileWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProfileWidgetExtension.entitlements; sourceTree = "<group>"; };
+		B56643FC26EA260800F068D6 /* StaticProfileApp.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = StaticProfileApp.entitlements; sourceTree = "<group>"; };
 		B58BB46726E8976C00EBF3D3 /* StaticProfileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaticProfileApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58BB46A26E8976C00EBF3D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B58BB46C26E8976C00EBF3D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +92,7 @@
 		B58BB45E26E8976C00EBF3D3 = {
 			isa = PBXGroup;
 			children = (
+				B56643FB26EA257B00F068D6 /* ProfileWidgetExtension.entitlements */,
 				B58BB46926E8976C00EBF3D3 /* StaticProfileApp */,
 				B58BB48F26E898D800EBF3D3 /* ProfileWidget */,
 				B58BB48A26E898D800EBF3D3 /* Frameworks */,
@@ -105,9 +112,11 @@
 		B58BB46926E8976C00EBF3D3 /* StaticProfileApp */ = {
 			isa = PBXGroup;
 			children = (
+				B56643FC26EA260800F068D6 /* StaticProfileApp.entitlements */,
 				B58BB46A26E8976C00EBF3D3 /* AppDelegate.swift */,
 				B58BB46C26E8976C00EBF3D3 /* SceneDelegate.swift */,
 				B58BB48326E8979A00EBF3D3 /* Profile.swift */,
+				B56643F826EA24D100F068D6 /* Common.swift */,
 				B58BB46E26E8976C00EBF3D3 /* ViewController.swift */,
 				B58BB47026E8976C00EBF3D3 /* Main.storyboard */,
 				B58BB47626E8976D00EBF3D3 /* Assets.xcassets */,
@@ -240,6 +249,7 @@
 				B58BB46F26E8976C00EBF3D3 /* ViewController.swift in Sources */,
 				B58BB48426E8979A00EBF3D3 /* Profile.swift in Sources */,
 				B58BB46B26E8976C00EBF3D3 /* AppDelegate.swift in Sources */,
+				B56643F926EA24D100F068D6 /* Common.swift in Sources */,
 				B58BB46D26E8976C00EBF3D3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +258,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B56643FA26EA24DB00F068D6 /* Common.swift in Sources */,
+				B56643FD26EA345E00F068D6 /* Profile.swift in Sources */,
 				B58BB49126E898D800EBF3D3 /* ProfileWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,6 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = ProfileWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NSCRL9SYQK;
 				INFOPLIST_FILE = ProfileWidget/Info.plist;
@@ -466,6 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = ProfileWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NSCRL9SYQK;
 				INFOPLIST_FILE = ProfileWidget/Info.plist;

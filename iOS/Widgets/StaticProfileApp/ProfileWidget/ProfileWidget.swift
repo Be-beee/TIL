@@ -9,23 +9,23 @@ import WidgetKit
 import SwiftUI
 
 struct Provider: TimelineProvider {
-    func placeholder(in context: Context) -> SimpleEntry {
-        SimpleEntry(date: Date())
+    func placeholder(in context: Context) -> ProfileEntry {
+        ProfileEntry(date: Date(), profile: Profile())
     }
 
-    func getSnapshot(in context: Context, completion: @escaping (SimpleEntry) -> ()) {
-        let entry = SimpleEntry(date: Date())
+    func getSnapshot(in context: Context, completion: @escaping (ProfileEntry) -> ()) {
+        let entry = ProfileEntry(date: Date(), profile: Profile())
         completion(entry)
     }
 
     func getTimeline(in context: Context, completion: @escaping (Timeline<Entry>) -> ()) {
-        var entries: [SimpleEntry] = []
+        var entries: [ProfileEntry] = []
 
         // Generate a timeline consisting of five entries an hour apart, starting from the current date.
         let currentDate = Date()
         for hourOffset in 0 ..< 5 {
             let entryDate = Calendar.current.date(byAdding: .hour, value: hourOffset, to: currentDate)!
-            let entry = SimpleEntry(date: entryDate)
+            let entry = ProfileEntry(date: entryDate, profile: Profile())
             entries.append(entry)
         }
 
@@ -34,8 +34,9 @@ struct Provider: TimelineProvider {
     }
 }
 
-struct SimpleEntry: TimelineEntry {
+struct ProfileEntry: TimelineEntry {
     let date: Date
+    let profile: Profile
 }
 
 struct ProfileWidgetEntryView : View {
@@ -45,7 +46,7 @@ struct ProfileWidgetEntryView : View {
     var body: some View {
         switch widgetFamily {
         case .systemMedium:
-            MediumProfileWidget()
+            MediumProfileWidget(entry: entry)
         default:
             Text("Hello")
         }
@@ -57,23 +58,26 @@ struct ProfileWidgetEntryView : View {
 // Medium Size Widget
 
 struct MediumProfileWidget: View {
+    var entry: Provider.Entry
+    
     var body: some View {
         ZStack {
             Color(.systemOrange)
             HStack {
-                Image(systemName: "heart.fill")
+                Image(uiImage: ImageManager.urlToImage(from: entry.profile.profileImg) ?? UIImage())
                     .resizable()
-                    .frame(width: 80, height: 80, alignment: .center)
+                    .frame(width: 85, height: 85, alignment: .center)
+                    .aspectRatio(contentMode: .fill)
                 VStack(alignment: .leading) {
                     Spacer()
-                    Text("Be-beee")
+                    Text(entry.profile.name)
                         .font(.headline)
                         .fontWeight(.bold)
-                    Text("iOS Developer")
+                    Text(entry.profile.job)
                         .font(.caption)
                         .fontWeight(.thin)
                     Spacer()
-                    Text("maybutter756@gmail.com")
+                    Text(entry.profile.email)
                         .font(.footnote)
                     Spacer()
                     
@@ -93,13 +97,13 @@ struct ProfileWidget: Widget {
         }
         .configurationDisplayName("My Widget")
         .description("This is an example widget.")
-        .supportedFamilies([.systemSmall, .systemMedium])
+        .supportedFamilies([.systemMedium])
     }
 }
 
 struct ProfileWidget_Previews: PreviewProvider {
     static var previews: some View {
-        ProfileWidgetEntryView(entry: SimpleEntry(date: Date()))
+        ProfileWidgetEntryView(entry: ProfileEntry(date: Date(), profile: Profile()))
             .previewContext(WidgetPreviewContext(family: .systemMedium))
     }
 }

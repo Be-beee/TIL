@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    var myProfile = Profile(name: "Be-beee", profileImg: "profile", job: "iOS Developer", email: "maybutter756@gmail.com", github: "https://github.com/be-beee")
+    var myProfile = Profile()
     
     @IBOutlet weak var profileCardView: UIView!
     @IBOutlet weak var profileImage: UIImageView!
@@ -34,11 +34,12 @@ class ViewController: UIViewController {
     }
     
     func setProfileCardContent() {
-        profileImage.image = UIImage(named: myProfile.profileImg)
+        profileImage.image = ImageManager.urlToImage(from: myProfile.profileImg)
         nameLabel.text = myProfile.name
         jobLabel.text = myProfile.job
         emailLabel.text = myProfile.email
         githubLabel.text = myProfile.github
+        print(myProfile.profileImg)
     }
 
 
