@@ -48,14 +48,38 @@ struct ProfileWidgetEntryView : View {
         case .systemMedium:
             MediumProfileWidget(entry: entry)
         default:
-            Text("Hello")
+            SmallProfileWidget(entry: entry)
         }
         
         
     }
 }
 
-// Medium Size Widget
+// MARK:- Small Size Widget
+struct SmallProfileWidget: View {
+    var entry: Provider.Entry
+    
+    var body: some View {
+        ZStack {
+            Color(.systemOrange)
+            HStack {
+                VStack(alignment: .center) {
+                    Spacer()
+                    Text(entry.profile.name)
+                        .font(.headline)
+                        .fontWeight(.bold)
+                    Text(entry.profile.job)
+                        .font(.caption)
+                        .fontWeight(.thin)
+                    Spacer()
+                    
+                }
+            }
+        }
+    }
+}
+
+// MARK:- Medium Size Widget
 
 struct MediumProfileWidget: View {
     var entry: Provider.Entry
@@ -97,7 +121,7 @@ struct ProfileWidget: Widget {
         }
         .configurationDisplayName("My Widget")
         .description("This is an example widget.")
-        .supportedFamilies([.systemMedium])
+        .supportedFamilies([.systemSmall, .systemMedium])
     }
 }
 
