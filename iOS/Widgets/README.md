@@ -5,7 +5,43 @@
 </div>
 <br>
 Static Widget/Dynamic Widget은 `TimelineProvider`에서 지정한 시간 옵션에 따라 `TimelineEntry`를 업데이트하는 방식으로 동작한다.<br>
-타임라인은 `getTimeline` 메서드에서 array 형식으로 얻어오고, `getSnapshot` 메서드를 통해 특정 시간에 맞는 `TimelineEntry`를 가져오게 된다.
+타임라인은 `getTimeline` 메서드에서 array 형식으로 얻어오고, `getSnapshot` 메서드를 통해 특정 시간에 맞는 `TimelineEntry` 를 가져오게 된다.<br>
+위젯은 크기에 따라 small, medium, large로 분류되며, `widgetFamily`를 통해 각 위젯 크기에 따라 다른 UI를 적용시킬 수 있다.
+```swift
+// MARK:- 사용 예시
+
+struct ProfileWidgetEntryView : View {
+    @Environment(\.widgetFamily) private var widgetFamily
+    var entry: Provider.Entry
+
+    var body: some View {
+        switch widgetFamily {
+        case .systemMedium:
+            MediumProfileWidget(entry: entry)
+        default:
+            SmallProfileWidget(entry: entry)
+        }
+        
+        
+    }
+}
+
+// ... 중략
+
+@main
+struct ProfileWidget: Widget {
+    let kind: String = "ProfileWidget"
+
+    var body: some WidgetConfiguration {
+        StaticConfiguration(kind: kind, provider: Provider()) { entry in
+            ProfileWidgetEntryView(entry: entry)
+        }
+        .configurationDisplayName("My Widget")
+        .description("This is an example widget.")
+        .supportedFamilies([.systemSmall, .systemMedium])  // 지원할 위젯 크기를 지정할 수 있다.
+    }
+}
+```
 
 <br>
 <br>
@@ -18,6 +54,7 @@ Static Widget/Dynamic Widget은 `TimelineProvider`에서 지정한 시간 옵션
 </div>
 
 위젯 편집 기능이 포함되지 않은 정적(Static) 위젯. <br>
+`ConfigurationIntent`가 사용되지 않는 위젯 타입이다.
 <br>
 <br>
 
