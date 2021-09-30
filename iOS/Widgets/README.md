@@ -6,7 +6,9 @@
 <br>
 Static Widget/Dynamic Widget은 `TimelineProvider`에서 지정한 시간 옵션에 따라 `TimelineEntry`를 업데이트하는 방식으로 동작한다.<br>
 타임라인은 `getTimeline` 메서드에서 array 형식으로 얻어오고, `getSnapshot` 메서드를 통해 특정 시간에 맞는 `TimelineEntry` 를 가져오게 된다.<br>
-위젯은 크기에 따라 small, medium, large로 분류되며, `widgetFamily`를 통해 각 위젯 크기에 따라 다른 UI를 적용시킬 수 있다.
+위젯은 크기에 따라 small, medium, large로 분류되며, `widgetFamily`를 통해 각 위젯 크기에 따라 다른 UI를 적용시킬 수 있다.<br>
+<br>
+
 ```swift
 // MARK:- 사용 예시
 
