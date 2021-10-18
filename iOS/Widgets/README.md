@@ -2,6 +2,7 @@
 
 <div align="center">
     <img src="./images/timeline_wwdc.png" width="85%">
+    <img src="https://docs-assets.developer.apple.com/published/213aa7307c9285983f452058dce9eebe/11800/WidgetKit-Timeline-After-Date@2x.png" width="45%">
 </div>
 <br>
 
@@ -91,4 +92,5 @@ struct ProfileWidget: Widget {
 
 - [Meet WidgetKit](https://developer.apple.com/videos/play/wwdc2020/10028/)
 - [Making a Configurable Widget](https://developer.apple.com/documentation/widgetkit/making-a-configurable-widget)
+- [Keeping a Widget Up To Date](https://developer.apple.com/documentation/widgetkit/keeping-a-widget-up-to-date)
 - [StaticConfiguration](https://developer.apple.com/documentation/widgetkit/staticconfiguration)
