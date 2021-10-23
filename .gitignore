@@ -1,2 +1,11 @@
+# XCode
 xcuserdata
+xcshareddata
+*.xcodeproj
+
+# CocoaPods
 Pods/
+*.xcworkspace
+
+# MacOS
+.DS_Store
