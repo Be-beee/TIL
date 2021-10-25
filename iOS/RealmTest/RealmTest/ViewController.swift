@@ -51,7 +51,14 @@ class ViewController: UIViewController {
     
     
     @IBAction func updateData(_ sender: UIButton) {
-        print("Update Data")
+        if let queryResult = realm.objects(Person.self).filter(NSPredicate(format: "name = %@", nameField.text ?? "no person")).first {
+            try! realm.write {
+                queryResult.name = "mnbv"
+            }
+            self.resultLabel.text = "변경 성공!"
+        } else {
+            self.resultLabel.text = "존재하지 않는 데이터입니다."
+        }
     }
     
     
