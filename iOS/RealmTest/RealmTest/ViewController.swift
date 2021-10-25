@@ -9,8 +9,8 @@ import UIKit
 import RealmSwift
 
 class Person: Object {
-    @objc dynamic var name = " "
-    @objc dynamic var age = 0
+    @objc dynamic var name = "rrrr"
+    @objc dynamic var age = 30
 }
 
 class ViewController: UIViewController {
@@ -20,17 +20,23 @@ class ViewController: UIViewController {
     @IBOutlet weak var resultLabel: UILabel!
     
     var realm: Realm!
+    var itemlist = [Person]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         realm = try! Realm()
         print(Realm.Configuration.defaultConfiguration.fileURL!)
+        let list = realm.objects(Person.self)
+        self.itemlist = Array(list)
+        self.resultLabel.text = itemlist.description
     }
 
     @IBAction func createData(_ sender: UIButton) {
         let person = Person()
-        person.name = self.nameField!.text!
-        person.age = Int(self.ageField!.text!)!
+        guard let name = self.nameField.text, let age = self.ageField.text else { return }
+        guard !name.isEmpty, !age.isEmpty else { return }
+        person.name = name
+        person.age = Int(age) ?? 0
         
         try! realm.write {
             realm.add(person)
@@ -38,7 +44,9 @@ class ViewController: UIViewController {
     }
     
     @IBAction func deleteData(_ sender: UIButton) {
-        print("Delete Data")
+        try! realm.write {
+            realm.delete(self.itemlist[0])
+        }
     }
     
     
@@ -49,15 +57,12 @@ class ViewController: UIViewController {
     
     @IBAction func readData(_ sender: UIButton) {
         let list = realm.objects(Person.self)
-        var readResult = ""
-        if list.count == 0 {
-            resultLabel.text = readResult
-        }
         
-        for item in list {
-            readResult += ", name=\(item.name), age=\(item.age)"
+        if list.count == 0 {
+            resultLabel.text = "no items"
         }
-        resultLabel.text = readResult
+        self.itemlist = Array(list)
+        self.resultLabel.text = self.itemlist.description
         
         // query
         let filterAge = 27
