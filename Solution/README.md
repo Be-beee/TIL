@@ -86,6 +86,7 @@
 - [프린터](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_printer)
 - [땅따먹기](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_hopscotch)
 - [가장 큰 정사각형 찾기](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_biggest_rect)
+- [방금 그 곡](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_just_that_music)
 
 <br>
 <br>
