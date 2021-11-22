@@ -87,6 +87,8 @@
 - [땅따먹기](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_hopscotch)
 - [가장 큰 정사각형 찾기](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_biggest_rect)
 - [방금 그 곡](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_just_that_music)
+- [방문 길이](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_visited_distance)
+- [압축](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_compression)
 
 <br>
 <br>
