@@ -91,6 +91,7 @@
 - [압축](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_compression)
 - [쿼드 압축 후 개수 세기](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_quad_compression)
 - [네트워크](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_network)
+- [피로도](https://github.com/Be-beee/TIL-2/tree/main/Solution/programmers_fatigability)
 
 <br>
 <br>
