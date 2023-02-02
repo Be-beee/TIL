@@ -52,6 +52,7 @@
 - [10816 숫자 카드2](https://github.com/Be-beee/TIL-2/tree/main/Solution/number_card2_10816)
 - [10828 스택](https://github.com/Be-beee/TIL-2/tree/main/Solution/stack_10828)
 - [10866 덱](https://github.com/Be-beee/TIL-2/tree/main/Solution/deque_10866)
+- [10986 나머지 합](https://github.com/Be-beee/TIL-2/tree/main/Solution/10986.swift)
 - [11399 ATM](https://github.com/Be-beee/TIL-2/tree/main/Solution/ATM_11399)
 - [13305 주유소](https://github.com/Be-beee/TIL-2/tree/main/Solution/Gas_station_13305)
 - [15649 N과 M](https://github.com/Be-beee/TIL-2/tree/main/Solution/N_and_M_15649)
