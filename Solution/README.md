@@ -58,6 +58,7 @@
 - [15649 N과 M](https://github.com/Be-beee/TIL-2/tree/main/Solution/BOJ/N_and_M_15649.swift)
 - [15650 N과 M(2)](https://github.com/Be-beee/TIL-2/tree/main/Solution/BOJ/N_and_M_15650.swift)
 - [18352 특정 거리의 도시 찾기](https://github.com/Be-beee/TIL-2/tree/main/Solution/BOJ/special_distance_city_18352.swift)
+- [18870 좌표 압축](./BOJ/compression_18870.swift)
 
 <br>
 <br>
