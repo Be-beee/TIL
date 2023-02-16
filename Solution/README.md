@@ -21,6 +21,7 @@
 - [1932 정수 삼각형](https://github.com/Be-beee/TIL-2/tree/main/Solution/BOJ/triangle_1932.swift)
 
 
+- [2110 공유기 설치](./BOJ/wifi_2110.swift)
 - [2178 미로 탐색](https://github.com/Be-beee/TIL-2/tree/main/Solution/BOJ/maze_2178.swift)
 - [2231 분해합](https://github.com/Be-beee/TIL-2/tree/main/Solution/BOJ/Divided_sum_2231.swift)
 - [2581 소수 찾기](https://github.com/Be-beee/TIL-2/tree/main/Solution/BOJ/prime_2581.swift)
