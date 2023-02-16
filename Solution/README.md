@@ -24,6 +24,7 @@
 - [2110 공유기 설치](./BOJ/wifi_2110.swift)
 - [2178 미로 탐색](https://github.com/Be-beee/TIL-2/tree/main/Solution/BOJ/maze_2178.swift)
 - [2231 분해합](https://github.com/Be-beee/TIL-2/tree/main/Solution/BOJ/Divided_sum_2231.swift)
+- [2559 수열](./BOJ/sequence_2559.swift) 
 - [2581 소수 찾기](https://github.com/Be-beee/TIL-2/tree/main/Solution/BOJ/prime_2581.swift)
 - [2606 바이러스](https://github.com/Be-beee/TIL-2/tree/main/Solution/BOJ/virus_2606.swift)
 - [2667 단지 번호 붙이기](https://github.com/Be-beee/TIL-2/tree/main/Solution/BOJ/zipcode_2667.swift)
