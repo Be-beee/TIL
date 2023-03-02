@@ -99,6 +99,8 @@
 - [피로도](https://github.com/Be-beee/TIL-2/tree/main/Solution/Programmers/fatigability.swift)
 - [파일명 정렬](https://github.com/Be-beee/TIL-2/tree/main/Solution/Programmers/sort_filename.swift)
 - [행렬의 곱셈](https://github.com/Be-beee/TIL-2/tree/main/Solution/Programmers/matrix_multification.swift)
+- [단어 변환](./Programmers/word_change.swift)
+- [입국심사](./Programmers/immmigration.swift)
 
 <br>
 <br>
