@@ -21,9 +21,6 @@ final class LoginViewController: UIViewController {
     private var cancellables = Set<AnyCancellable>()
     private let viewModel = LoginViewModel()
     
-    private let user = PassthroughSubject<String, Never>()
-    private let password = PassthroughSubject<String, Never>()
-    
     // MARK: - Life Cycle
     
     override func loadView() {
@@ -41,32 +38,18 @@ final class LoginViewController: UIViewController {
 
     private func configureActions() {
         rootView.loginButton.addTarget(self, action: #selector(loginButtonTapped), for: .touchUpInside)
-        
-        rootView.idTextField.addTarget(self, action: #selector(textFieldDidChange(sender:)), for: .editingChanged)
-        rootView.passwordTextField.addTarget(self, action: #selector(textFieldDidChange(sender:)), for: .editingChanged)
     }
     
     @objc private func loginButtonTapped() {
         print(rootView.loadLoginInfo())
     }
     
-    @objc private func textFieldDidChange(sender: UITextField) {
-        switch sender {
-        case rootView.idTextField:
-            user.send(sender.text!)
-        case rootView.passwordTextField:
-            password.send(sender.text!)
-        default:
-            break
-        }
-    }
-    
     // MARK: - Bind Functions
     
     private func bind(to viewModel: LoginViewModel) {
         let input = LoginViewModel.Input(
-            userName: user.eraseToAnyPublisher(),
-            password: password.eraseToAnyPublisher()
+            userName: rootView.idTextField.publisher.eraseToAnyPublisher(),
+            password: rootView.passwordTextField.publisher.eraseToAnyPublisher()
         )
         
         let output = viewModel.transform(input: input)
