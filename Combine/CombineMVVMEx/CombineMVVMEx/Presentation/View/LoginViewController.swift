@@ -31,17 +31,6 @@ final class LoginViewController: UIViewController {
         super.viewDidLoad()
         
         bind(to: viewModel)
-        configureActions()
-    }
-    
-    // MARK: - Configure Action Function
-
-    private func configureActions() {
-        rootView.loginButton.addTarget(self, action: #selector(loginButtonTapped), for: .touchUpInside)
-    }
-    
-    @objc private func loginButtonTapped() {
-        print(rootView.loadLoginInfo())
     }
     
     // MARK: - Bind Functions
@@ -49,7 +38,8 @@ final class LoginViewController: UIViewController {
     private func bind(to viewModel: LoginViewModel) {
         let input = LoginViewModel.Input(
             userName: rootView.idTextField.publisher.eraseToAnyPublisher(),
-            password: rootView.passwordTextField.publisher.eraseToAnyPublisher()
+            password: rootView.passwordTextField.publisher.eraseToAnyPublisher(),
+            loginButtonTapped: rootView.loginButton.publihser.eraseToAnyPublisher()
         )
         
         let output = viewModel.transform(input: input)
@@ -58,6 +48,12 @@ final class LoginViewController: UIViewController {
             .sink { [weak self] state in
                 self?.rootView.loginButton.isEnabled = state
                 self?.rootView.loginButton.backgroundColor = state ? .systemBlue : .systemGray3
+            }
+            .store(in: &cancellables)
+        
+        output.loginInfo
+            .sink { info in
+                print(info)
             }
             .store(in: &cancellables)
     }

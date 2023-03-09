@@ -12,10 +12,12 @@ final class LoginViewModel: ViewModelType {
     struct Input {
         let userName: AnyPublisher<String, Never>
         let password: AnyPublisher<String, Never>
+        let loginButtonTapped: AnyPublisher<Void, Never>
     }
     
     struct Output {
         let buttonIsValid: AnyPublisher<Bool, Never>
+        let loginInfo: AnyPublisher<String, Never>
     }
     
     func transform(input: Input) -> Output {
@@ -25,6 +27,15 @@ final class LoginViewModel: ViewModelType {
             }
             .eraseToAnyPublisher()
         
-        return Output(buttonIsValid: buttonStatePublisher)
+        let loginButtonTapPublisher = input.loginButtonTapped.combineLatest(input.userName, input.password)
+            .map { _, userName, password in
+                "userName: \(userName), password: \(password)"
+            }
+            .eraseToAnyPublisher()
+        
+        return Output(
+            buttonIsValid: buttonStatePublisher,
+            loginInfo: loginButtonTapPublisher
+        )
     }
 }
